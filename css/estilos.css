@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Arial', sans-serif;
+}
+body {
+  background: #d3d3d3;
+}
