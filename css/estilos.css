@@ -8,3 +8,213 @@ html {
 body {
   background: #d3d3d3;
 }
+.escoge {
+  background: #fff;
+}
+.escoge__box {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.escoge__title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+.escoge__title h2 {
+  font-size: 1.7em;
+  color: #444e5a;
+}
+.escoge__title p {
+  font-size: 1.3em;
+  color: #444e5a;
+}
+.escoge__modelos {
+  display: block;
+  width: 100%;
+  padding-top: 1em;
+}
+.escoge__modelos .modelos--item {
+  display: block;
+  width: 100%;
+}
+.escoge__modelos .modelos--item h3 {
+  color: #444e5a;
+}
+.escoge__modelos .modelos--item figure {
+  width: 100%;
+  padding-top: 0.8em;
+}
+.escoge__modelos .modelos--item figure img {
+  max-width: 90%;
+}
+.escoge__modelos .modelos--item figure img:hover {
+  background: #61402c;
+  box-shadow: rgba(89,255,233,0.68) 0px 0px 28px;
+}
+@media (min-width: 768px) {
+  .escoge__box {
+    width: 100%;
+    text-align: center;
+    magin: 0 auto;
+  }
+  .escoge__title {
+    display: block;
+    width: 100%;
+  }
+  .escoge__title h2 {
+    font-size: 2.9em;
+  }
+  .escoge__title p {
+    font-size: 1.5em;
+  }
+  .escoge__modelos {
+    display: block;
+    width: 100%;
+  }
+  .escoge__modelos .modelos--item {
+    display: inline-block;
+    width: 45%;
+  }
+}
+@media (min-width: 1000px) {
+  .escoge__box {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .escoge__title {
+    display: block;
+    width: 100%;
+  }
+  .escoge__modelos {
+    width: 100%;
+    display: block;
+  }
+  .escoge__modelos .modelos--item {
+    display: inline-block;
+    width: 30%;
+  }
+}
+.personalizado {
+  background: #f4f5f6;
+  background-image: url("../image/estilo5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.personalizado__box {
+  width: 100%;
+  text-align: center;
+  maring: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.personalizado__title {
+  width: 100%;
+  text-align: center;
+  display: block;
+  maring: 0 auto;
+}
+.personalizado__title h2 {
+  font-size: 1.7em;
+  color: #fff;
+}
+.personalizado__title p {
+  font-size: 1.3em;
+  color: #fff;
+}
+.personalizado__actions {
+  width: 100%;
+  text-align: center;
+  display: block;
+  maring: 0 auto;
+  padding-top: 2.5em;
+}
+.personalizado__actions a {
+  background: #77e2f3;
+  padding: 1em;
+  font-size: 1.3em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.personalizado__actions a:hover {
+  background: #36e3ff;
+}
+@media (min-width: 768px) {
+  .personalizado__box {
+    width: 100%;
+    text-align: center;
+    maring: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 3em;
+  }
+  .personalizado__title h2 {
+    font-size: 3em;
+  }
+  .personalizado__title p {
+    font-size: 1.5em;
+  }
+  .personalizado__actions a {
+    padding: 1em 1.5em;
+    font-size: 1.5em;
+  }
+}
+.confianza {
+  background: #d3d3d3;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.confianza__box {
+  width: 100%;
+  margin: 0 auto;
+}
+.confianza__title {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.confianza__title h2 {
+  font-size: 1.7em;
+  color: #444e5a;
+}
+.confianza__comentarios {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.confianza__comentarios .comentarios__twitter {
+  width: 95%;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width: 768px) {
+  __box {
+    width: 100%;
+    margin: 0 auto;
+    background: #f00;
+  }
+  __title h2 {
+    font-size: 3em;
+  }
+  __comentarios {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  __comentarios .comentarios__twitter {
+    width: 45%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+}
