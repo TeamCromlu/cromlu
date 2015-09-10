@@ -1,10 +1,10 @@
 .confianza
-	background lightgray
-	padding-top 2em
-	padding-bottom 2em
+	background #f4f5f6
 	&__box
 		width 100%
 		margin 0 auto
+		padding-top 3em
+		padding-bottom 3em
 	&__title
 		width 100%
 		display block
@@ -17,32 +17,69 @@
 		width 100%
 		margin 0 auto
 		display block
+		padding-top 1em
+		padding-bottom 1em
 		text-align center
 		.comentarios__twitter
-			width 95%
+			margin-top .3em
+			margin-bottom .3em
+			width 80%
 			height auto
 			text-align center
 			margin 0 auto
 			display block
-
+@media (min-width 700px)
+	.confianza
+		&__box
+			width 100%
+			margin 0 auto
+		&__title
+			h2
+				font-size 3em
+		&__comentarios
+			width 100%
+			.comentarios__twitter
+				width 60%
+				display block	
 @media (min-width 768px)
-	&__box
-		width 100%
-		margin 0 auto
-		background red
-	&__title
-		h2
-			font-size 3em
-	&__comentarios
-		width 100%
-		margin 0 auto
-		display block
-		text-align center
-		.comentarios__twitter
-			width 45%
+	.confianza
+		&__box
+			max-width 100%
+			margin 0 auto
+		&__title
+			h2
+				font-size 3em
+		&__comentarios
+			width 100%
 			height auto
 			text-align center
 			margin 0 auto
-			display block
+			.comentarios__twitter
+				width 43%
+				display inline-block
+				vertical-align top
+				margin-left 1em
+				margin-bottom 1em
+@media (min-width 1000px)
+	.confianza
+		&__box
+			max-width 1200px
+			margin 0 auto
+		&__title
+			h2
+				font-size 3em
+		&__comentarios
+			width 100%
+			height auto
+			text-align center
+			margin 0 auto
+			.comentarios__twitter
+				display inline-block
+				vertical-align top
+				margin-left 1em
+				width 30%
+				margin 
 				
+
+					
 		

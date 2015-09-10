@@ -104,13 +104,15 @@ body {
   background-image: url("../image/estilo5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 4em;
+  padding-bottom: 4em;
 }
 .personalizado__box {
   width: 100%;
   text-align: center;
   maring: 0 auto;
   padding-top: 2em;
-  padding-bottom: 3em;
+  padding-bottom: 2em;
 }
 .personalizado__title {
   width: 100%;
@@ -119,8 +121,9 @@ body {
   maring: 0 auto;
 }
 .personalizado__title h2 {
-  font-size: 1.7em;
+  font-size: 1.9em;
   color: #fff;
+  font-weight: 600;
 }
 .personalizado__title p {
   font-size: 1.3em;
@@ -140,11 +143,15 @@ body {
   color: #fff;
   text-decoration: none;
   border-radius: 10px;
+  boder-bottom: 5px solid #f00;
 }
 .personalizado__actions a:hover {
   background: #36e3ff;
 }
 @media (min-width: 768px) {
+  .personalizado {
+    background-attachment: fixed;
+  }
   .personalizado__box {
     width: 100%;
     text-align: center;
@@ -164,13 +171,13 @@ body {
   }
 }
 .confianza {
-  background: #d3d3d3;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  background: #f4f5f6;
 }
 .confianza__box {
   width: 100%;
   margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 .confianza__title {
   width: 100%;
@@ -186,35 +193,300 @@ body {
   width: 100%;
   margin: 0 auto;
   display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
 }
 .confianza__comentarios .comentarios__twitter {
-  width: 95%;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  width: 80%;
   height: auto;
   text-align: center;
   margin: 0 auto;
   display: block;
 }
-@media (min-width: 768px) {
-  __box {
+@media (min-width: 700px) {
+  .confianza__box {
     width: 100%;
     margin: 0 auto;
-    background: #f00;
   }
-  __title h2 {
+  .confianza__title h2 {
     font-size: 3em;
   }
-  __comentarios {
+  .confianza__comentarios {
     width: 100%;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
   }
-  __comentarios .comentarios__twitter {
-    width: 45%;
+  .confianza__comentarios .comentarios__twitter {
+    width: 60%;
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .confianza__box {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .confianza__title h2 {
+    font-size: 3em;
+  }
+  .confianza__comentarios {
+    width: 100%;
     height: auto;
     text-align: center;
     margin: 0 auto;
+  }
+  .confianza__comentarios .comentarios__twitter {
+    width: 43%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+}
+@media (min-width: 1000px) {
+  .confianza__box {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .confianza__title h2 {
+    font-size: 3em;
+  }
+  .confianza__comentarios {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .confianza__comentarios .comentarios__twitter {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 1em;
+    width: 30%;
+margin
+  }
+}
+.contacto {
+  background: #fff;
+}
+.contacto__box {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.contacto__title {
+  width: 100%;
+}
+.contacto__title h2 {
+  font-size: 1.7em;
+  color: #444e5a;
+}
+.contacto__title p {
+  font-size: 1.3em;
+  color: #444e5a;
+}
+.contacto__contenido {
+  width: 100%;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.contacto .contenido__contacto {
+  padding-bottom: 1.5em;
+}
+.contacto .contenido__contacto .contacto__llamada {
+  padding-bottom: 1em;
+}
+.contacto .contenido__contacto .contacto__llamada h3 {
+  font-size: 1.5em;
+  color: #444e5a;
+}
+.contacto .contenido__contacto .contacto__llamada a {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #36e3ff;
+}
+.contacto .contenido__contacto .contacto__llamada a:hover {
+  color: #87ceeb;
+  text-decoration: underline;
+}
+.contacto .contenido__contacto .contacto__mail {
+  padding-bottom: 1em;
+}
+.contacto .contenido__contacto .contacto__mail h3 {
+  font-size: 1.5em;
+  color: #444e5a;
+}
+.contacto .contenido__contacto .contacto__mail a {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #36e3ff;
+}
+.contacto .contenido__contacto .contacto__mail a:hover {
+  color: #87ceeb;
+  text-decoration: underline;
+}
+.contacto .contenido__contacto .contacto__redes h3 {
+  font-size: 1.5em;
+  color: #444e5a;
+}
+.contacto .contenido__contacto .contacto__redes .contacto__networking {
+  padding-top: 1em;
+}
+.contacto .contenido__contacto .contacto__redes .contacto__networking a {
+  margin: 0.7em;
+}
+.contacto .contenido__contacto .contacto__redes .contacto__networking img {
+  width: 3em;
+  border-radius: 10px;
+}
+.contacto .contenido__mail {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.contacto .contenido__mail label {
+  display: block;
+  font-size: 1.3em;
+  width: 80%;
+  text-align: left;
+  margin-left: 10%;
+  padding-bottom: 0.3em;
+  padding-top: 0.7em;
+  color: #444e5a;
+}
+.contacto .contenido__mail input {
+  display: block;
+  padding: 1.2em;
+  border: 1px solid #d0d0d0;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 80%;
+  outline: 0;
+  font-size: 1em;
+}
+.contacto .contenido__mail textarea {
+  padding: 1.5em;
+  display: block;
+  border-radius: 20px;
+  border: 1px solid #d0d0d0;
+  outline: 0;
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.contacto .contenido__mail p {
+  color: #444e5a;
+  text-align: left;
+  margin-left: 10%;
+}
+.contacto .contenido__mail .btn_enviar {
+  display: block;
+  background: #15deff;
+  color: #fff;
+  border-radius: 20px;
+  padding: 1em;
+  font-size: 1em;
+  margin: 1.5em;
+  border-bottom: 5px solid #1d90a2;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contacto .contenido__mail .btn_enviar:hover {
+  background: #76e8fb;
+  border-bottom: 5px solid #21acc1;
+}
+@media (min-width: 768px) {
+  .contacto__box {
+    max-width: 1200px;
+  }
+  .contacto__title {
+    width: 100%;
+  }
+  .contacto__title h2 {
+    font-size: 3em;
+  }
+  .contacto__title p {
+    font-size: 1.5em;
+  }
+  .contacto__contenido {
+    width: 100%;
     display: block;
   }
+  .contacto__contenido .contenido__contacto {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+  }
+  .contacto__contenido .contenido__contacto .contacto__llamada h3 {
+    font-size: 2em;
+  }
+  .contacto__contenido .contenido__contacto .contacto__llamada a {
+    font-size: 1.6em;
+  }
+  .contacto__contenido .contenido__contacto .contacto__mail h3 {
+    font-size: 2em;
+  }
+  .contacto__contenido .contenido__contacto .contacto__mail a {
+    font-size: 1.6em;
+  }
+  .contacto__contenido .contenido__contacto .contacto__redes h3 {
+    font-size: 2em;
+  }
+  .contacto__contenido .contenido__contacto .contacto__redes .contacto__networking img {
+    width: 3.8em;
+  }
+  .contacto__contenido .contenido__mail {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+  }
+  .contacto__contenido .contenido__mail label {
+    width: 53%;
+    margin-left: 23%;
+  }
+  .contacto__contenido .contenido__mail input {
+    width: 53%;
+  }
+  .contacto__contenido .contenido__mail textarea {
+    max-width: 53%;
+  }
+  .contacto__contenido .contenido__mail p {
+    width: 53%;
+    margin-left: 23%;
+  }
+  .contacto__contenido .contenido__mail .btn_enviar {
+    width: 53%;
+    margin: 1em auto;
+  }
+}
+.Footer-Main {
+  background: #0a192b;
+}
+.Footer-Main__box {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.Footer-Main p {
+  color: #fff;
+  font-size: 1em;
+}
+.Footer-Main a {
+  text-decoration: none;
+  color: #36e3ff;
+}
+.Footer-Main a:hover {
+  text-decoration: underline;
+  color: #87ceeb;
 }
