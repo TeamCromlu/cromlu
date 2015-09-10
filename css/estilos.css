@@ -157,7 +157,7 @@ body {
   padding-top: 5em;
 }
 .Front__botoncito a {
-  padding: 0.5em 0.2em;
+  padding: 0.7em 0.6em;
   font-size: 2em;
   text-decoration: none;
   color: #fff;
@@ -211,6 +211,7 @@ body {
   border-radius: 25px;
   padding: 1em;
   text-align: center;
+  vertical-align: top;
 }
 .Benefit__cajas figure img {
   width: 200px;
@@ -289,6 +290,7 @@ body {
   border-radius: 15px;
   text-align: center;
   display: inline-block;
+  vertical-align: top;
 }
 .Process__cajas h3 {
   padding: 0.5em;
@@ -447,13 +449,12 @@ body {
   padding-top: 2.5em;
 }
 .personalizado__actions a {
-  background: #77e2f3;
+  background: rgba(24,222,255,0.74);
   padding: 1em;
   font-size: 1.3em;
   color: #fff;
   text-decoration: none;
-  border-radius: 10px;
-  boder-bottom: 5px solid #f00;
+  border-radius: 50px;
 }
 .personalizado__actions a:hover {
   background: #36e3ff;
@@ -701,7 +702,7 @@ margin
   display: block;
   background: #15deff;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 1em;
   font-size: 1em;
   margin: 1.5em;
