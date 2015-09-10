@@ -1,0 +1,52 @@
+.Benefit {
+  background: #fff;
+  padding-top: 9em;
+}
+.Benefit__text {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+}
+.Benefit__text h2 {
+  font-size: 2em;
+}
+.Benefit__text p {
+  font-size: 1.4em;
+  padding-top: 0.5em;
+}
+.Benefit__art {
+  padding: 2em 0;
+}
+.Benefit__cajas {
+  border-radius: 25px;
+  padding: 1em;
+  text-align: center;
+}
+.Benefit__cajas figure img {
+  width: 200px;
+  border-radius: 50%;
+}
+.Benefit__cajas .text {
+  margin: 1.5em 0;
+}
+.Benefit__cajas .text h3 {
+  margin: 1em 0;
+  font-size: 1.5em;
+}
+@media screen and (min-width: 321px) {
+  .Benefit__art {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+  }
+  .Benefit__cajas {
+    margin: 0.5em 2em 0.5em 2em;
+    display: inline-block;
+    max-width: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Benefit__cajas {
+    width: 200px;
+  }
+}
