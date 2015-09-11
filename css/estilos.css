@@ -728,7 +728,7 @@ margin
   border-radius: 30px;
   padding: 1em;
   font-size: 1em;
-  margin: 1.5em;
+  margin: 1.5em auto;
   border-bottom: 5px solid #1d90a2;
   cursor: pointer;
   text-transform: uppercase;
