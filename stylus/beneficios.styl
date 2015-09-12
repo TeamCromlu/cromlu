@@ -1,13 +1,15 @@
 .Benefit
 	background white
-	padding-top 9em 
+	padding-top 6em 
 	&__text
 		text-align center
 		margin auto
 		width 90%
 		h2
+			color color__gris
 			font-size 2em
 		p 
+			color gris__subtitulo
 			font-size 1.4em
 			padding-top .5em
 	&__art
@@ -40,8 +42,16 @@
 @media screen and (min-width 768px)
 	.Benefit
 		&__cajas
+			margin 0 5%
 			width 200px
-		
+			.text
+				p 
+					font-size 1.2em
+		&__text
+			h2
+				font-size 3.2em
+			p 
+				font-size 2em
 
 
 
