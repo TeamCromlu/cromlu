@@ -368,7 +368,7 @@ body {
 }
 @media screen and (min-width: 764px) {
   .Process {
-    padding: 10em 0;
+    padding: 3em 0;
   }
   .Process__text h2 {
     font-size: 3.5em;
