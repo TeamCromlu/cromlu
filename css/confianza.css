@@ -1,0 +1,24 @@
+.confianza {
+  background: #d3d3d3;
+}
+.confianza__box {
+  width: 100%;
+  margin: 0 auto;
+}
+.confianza__title {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.confianza__title h2 {
+  font-size: title_h2;
+  color: gris_letra;
+}
+.confianza__comentarios {
+  width: 100%;
+  display: block;
+}
+.confianza__comentarios .comentarios__twitter {
+  width: 100%;
+  display: block;
+}
