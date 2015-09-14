@@ -264,7 +264,7 @@ body {
 }
 .Convince {
   height: 300px;
-  background: url("../image/3.png");
+  background: url("../image/pexel.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -293,7 +293,7 @@ body {
 .Conviction {
   height: 750px;
   whith: 100%;
-  background: url("../image/4.jpg");
+  background: url("../image/convence.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -301,15 +301,19 @@ body {
   margin: auto;
   width: 80%;
   text-align: center;
-  padding: 12em 0;
+  padding: 8em 0;
 }
 .Conviction__box h2 {
+  text-shadow: 1px 1px 2px #282828;
   font-size: 2.5em;
   color: #fff;
 }
 @media screen and (min-width: 764px) {
   .Conviction__box {
     width: 70%;
+  }
+  .Conviction__box h2 {
+    font-size: 3.5em;
   }
 }
 .Process {
@@ -363,6 +367,9 @@ body {
   padding: 1em 0.5em;
 }
 @media screen and (min-width: 764px) {
+  .Process {
+    padding: 3em 0;
+  }
   .Process__text h2 {
     font-size: 3.5em;
   }
@@ -389,7 +396,7 @@ body {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 6em;
   padding-bottom: 2em;
 }
 .escoge__title {
@@ -412,6 +419,7 @@ body {
   padding-top: 1em;
 }
 .escoge__modelos .modelos--item {
+  margin-top: 2em;
   display: block;
   width: 100%;
 }
@@ -431,7 +439,7 @@ body {
 }
 @media (min-width: 768px) {
   .escoge {
-    padding: 3em 0;
+    padding: 0;
   }
   .escoge__box {
     width: 100%;
