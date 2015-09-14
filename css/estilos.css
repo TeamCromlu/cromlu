@@ -4,6 +4,7 @@
 }
 html {
   font-family: 'Questrial' sans-serif;
+  color: #171717;
 }
 body {
   background: #d3d3d3;
@@ -301,7 +302,7 @@ body {
   margin: auto;
   width: 80%;
   text-align: center;
-  padding: 8em 0;
+  padding: 9em 0;
 }
 .Conviction__box h2 {
   text-shadow: 1px 1px 2px #282828;
@@ -406,12 +407,12 @@ body {
   margin: 0 auto;
 }
 .escoge__title h2 {
-  font-size: 1.7em;
-  color: #444e5a;
+  font-size: 2.5em;
+  color: #3a3a3a;
 }
 .escoge__title p {
-  font-size: 1.3em;
-  color: #444e5a;
+  font-size: 1.7em;
+  color: #464646;
 }
 .escoge__modelos {
   display: block;
@@ -424,7 +425,7 @@ body {
   width: 100%;
 }
 .escoge__modelos .modelos--item h3 {
-  color: #444e5a;
+  color: #171717;
 }
 .escoge__modelos .modelos--item figure {
   width: 100%;
@@ -451,10 +452,10 @@ body {
     width: 100%;
   }
   .escoge__title h2 {
-    font-size: 2.9em;
+    font-size: 3.2em;
   }
   .escoge__title p {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .escoge__modelos {
     display: block;
@@ -487,7 +488,7 @@ body {
 }
 .personalizado {
   background: #f4f5f6;
-  background-image: url("../image/estilo5.jpg");
+  background-image: url("../image/estilo2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 4em;
@@ -507,13 +508,15 @@ body {
   maring: 0 auto;
 }
 .personalizado__title h2 {
-  font-size: 1.9em;
+  font-size: 3em;
   color: #fff;
   font-weight: 600;
+  text-shadow: 1px 1px 2px #282828;
 }
 .personalizado__title p {
-  font-size: 1.3em;
+  font-size: 1.7em;
   color: #fff;
+  text-shadow: 1px 1px 1px #282828;
 }
 .personalizado__actions {
   width: 100%;
@@ -534,9 +537,6 @@ body {
   background: #36e3ff;
 }
 @media (min-width: 768px) {
-  .personalizado {
-    background-attachment: fixed;
-  }
   .personalizado__box {
     width: 100%;
     text-align: center;
@@ -545,10 +545,12 @@ body {
     padding-bottom: 3em;
   }
   .personalizado__title h2 {
-    font-size: 3em;
+    font-size: 4em;
+    text-shadow: 1px 1px 2px #282828;
+    color: #fff;
   }
   .personalizado__title p {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .personalizado__actions a {
     padding: 1em 1.5em;
@@ -571,8 +573,8 @@ body {
   margin: 0 auto;
 }
 .confianza__title h2 {
-  font-size: 1.7em;
-  color: #444e5a;
+  font-size: 2.5em;
+  color: #3a3a3a;
 }
 .confianza__comentarios {
   width: 100%;
@@ -613,7 +615,7 @@ body {
     margin: 0 auto;
   }
   .confianza__title h2 {
-    font-size: 3em;
+    font-size: 3.2em;
   }
   .confianza__comentarios {
     width: 100%;
@@ -666,12 +668,12 @@ margin
   width: 100%;
 }
 .contacto__title h2 {
-  font-size: 1.7em;
-  color: #444e5a;
+  font-size: 2.5em;
+  color: #3a3a3a;
 }
 .contacto__title p {
-  font-size: 1.3em;
-  color: #444e5a;
+  font-size: 1.7em;
+  color: #464646;
 }
 .contacto__contenido {
   width: 100%;
@@ -687,7 +689,7 @@ margin
 }
 .contacto .contenido__contacto .contacto__llamada h3 {
   font-size: 1.5em;
-  color: #444e5a;
+  color: #171717;
 }
 .contacto .contenido__contacto .contacto__llamada a {
   font-size: 1.4em;
@@ -703,7 +705,7 @@ margin
 }
 .contacto .contenido__contacto .contacto__mail h3 {
   font-size: 1.5em;
-  color: #444e5a;
+  color: #171717;
 }
 .contacto .contenido__contacto .contacto__mail a {
   font-size: 1.4em;
@@ -716,7 +718,7 @@ margin
 }
 .contacto .contenido__contacto .contacto__redes h3 {
   font-size: 1.5em;
-  color: #444e5a;
+  color: #171717;
 }
 .contacto .contenido__contacto .contacto__redes .contacto__networking {
   padding-top: 1em;
@@ -744,7 +746,7 @@ margin
   margin-left: 10%;
   padding-bottom: 0.3em;
   padding-top: 0.7em;
-  color: #444e5a;
+  color: #171717;
 }
 .contacto .contenido__mail input {
   display: block;
@@ -769,7 +771,7 @@ margin
   margin: 0 auto;
 }
 .contacto .contenido__mail p {
-  color: #444e5a;
+  color: #171717;
   text-align: left;
   margin-left: 10%;
 }
@@ -798,10 +800,10 @@ margin
     width: 100%;
   }
   .contacto__title h2 {
-    font-size: 3em;
+    font-size: 3.2em;
   }
   .contacto__title p {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .contacto__contenido {
     width: 100%;
