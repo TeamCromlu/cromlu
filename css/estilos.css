@@ -10,6 +10,7 @@ body {
   background: #d3d3d3;
 }
 .Header {
+  -webkit-box-shadow: 0px 4px 3px rgba(0,0,0,0.24);
   box-shadow: 0px 4px 3px rgba(0,0,0,0.24);
   position: fixed;
   width: 100%;
@@ -48,6 +49,7 @@ body {
   text-decoration: none;
   color: #fff;
   padding: 0.4em;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
   background-color: #01e6d5;
 }
@@ -95,6 +97,10 @@ body {
   font-weight: bold;
   text-decoration: none;
   color: #808080;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
   transition: 0.2s;
 }
 .Header__botones :hover {
@@ -134,6 +140,7 @@ body {
     margin: auto;
     color: #00e6d5;
     padding: 0.5em 1em;
+    -webkit-border-radius: 50px;
     border-radius: 50px;
     border: 1px solid #00e6d5;
   }
@@ -147,6 +154,8 @@ body {
   background-color: #e0ac65;
   padding: 7em 0;
   background: url("../image/portada.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -172,6 +181,7 @@ body {
   font-size: 2em;
   text-decoration: none;
   color: #fff;
+  -webkit-border-radius: 50px;
   border-radius: 50px;
   background-color: rgba(0,210,196,0.71);
 }
@@ -221,12 +231,13 @@ body {
   padding: 2em 0;
 }
 .Benefit__cajas {
-  border-radius: 25px;
   text-align: center;
   vertical-align: top;
 }
 .Benefit__cajas figure img {
   width: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
 }
 .Benefit__cajas .text {
@@ -266,6 +277,8 @@ body {
 .Convince {
   height: 300px;
   background: url("../image/pexel.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -295,6 +308,8 @@ body {
   height: 750px;
   whith: 100%;
   background: url("../image/convence.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -342,7 +357,6 @@ body {
 .Process__cajas {
   margin: 1em 0.5em;
   max-width: 300px;
-  border-radius: 15px;
   text-align: center;
   display: inline-block;
   vertical-align: top;
@@ -354,6 +368,8 @@ body {
 }
 .Process__cajas img {
   width: 230px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   border-radius: 50%;
 }
 .Process__cajas h4 {
@@ -436,6 +452,7 @@ body {
 }
 .escoge__modelos .modelos--item figure img:hover {
   background: #61402c;
+  -webkit-box-shadow: rgba(89,255,233,0.68) 0px 0px 28px;
   box-shadow: rgba(89,255,233,0.68) 0px 0px 28px;
 }
 @media (min-width: 768px) {
@@ -489,6 +506,8 @@ body {
 .personalizado {
   background: #f4f5f6;
   background-image: url("../image/estilo2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 4em;
@@ -531,6 +550,8 @@ body {
   font-size: 1.3em;
   color: #fff;
   text-decoration: none;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
   border-radius: 50px;
 }
 .personalizado__actions a:hover {
@@ -728,6 +749,8 @@ margin
 }
 .contacto .contenido__contacto .contacto__redes .contacto__networking img {
   width: 3em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
 }
 .contacto .contenido__mail {
@@ -752,6 +775,8 @@ margin
   display: block;
   padding: 1.2em;
   border: 1px solid #d0d0d0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   margin: 0 auto;
   width: 80%;
@@ -761,6 +786,8 @@ margin
 .contacto .contenido__mail textarea {
   padding: 1.5em;
   display: block;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   border-radius: 20px;
   border: 1px solid #d0d0d0;
   outline: 0;
@@ -779,6 +806,8 @@ margin
   display: block;
   background: #15deff;
   color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
   border-radius: 30px;
   padding: 1em;
   font-size: 1em;
