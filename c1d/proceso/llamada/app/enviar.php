@@ -18,7 +18,7 @@ $asunto = 'Cliente cromlu, proceso LLAMADA';
 
 mail($para, $asunto, utf8_decode($mensaje), $header); 
 
-echo "<center><br/><h2><strong>MENSAJE ENVIADO ;) </strong></h2><br/> <h3>Contactaremos contigo por mail</h3> <strong>;)</strong><br/><a href='http://cromlu.com'><h2><strong>Volver a Cromlu</strong></h2></a></center>";
+echo "<center><br/><h2><strong>MENSAJE ENVIADO ;) </strong></h2><br/> <h3>Cargando los datos</h3> <strong>;)</strong><br/><h2><strong>Porfavor Espere...</strong></h2></center>";
 $url="http://cromlu.com/c1d/proceso/llamada/a1"; 
 echo "<SCRIPT>window.location='$url';</SCRIPT>"; 
 ?>	

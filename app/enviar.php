@@ -18,7 +18,7 @@ $asunto = 'New Contacto desde www.cromlu.com';
 
 mail($para, $asunto, utf8_decode($mensaje), $header); 
 
-echo "<center><br/><h2><strong>MENSAJE ENVIADO ;) </strong></h2><br/> <h3>Contactaremos contigo por mail</h3> <strong>;)</strong><br/><a href='http://cromlu.com'><h2><strong>Volver a Cromlu</strong></h2></a></center>";
+echo "<center><br/><h2><strong>MENSAJE ENVIADO ;) </strong></h2><br/> <h3>Los datos estan Cargando....</h3> <strong>;)</strong><br/><h2><strong>Cargando...</strong></h2></center>";
 $url="http://cromlu.com/comprar"; 
 echo "<SCRIPT>window.location='$url';</SCRIPT>"; 
 ?>	
