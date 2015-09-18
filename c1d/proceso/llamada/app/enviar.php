@@ -10,15 +10,15 @@ $header .= "Content-Type: text/plain";
 
 $mensaje = "Este mensaje fue enviado por: " . $nombre . ", el telefono es: " . $telefono . " \r\n"; 
 $mensaje .= "Su e-mail es: " . $mail . " \r\n"; 
-$mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n"; 
+$mensaje .= "Mensaje: " . $_POST['horario'] . " \r\n"; 
 $mensaje .= "Enviado el " . date('d/m/Y', time()); 
 
 $para = 'web@cromlu.com'; 
-$asunto = 'New Contacto desde www.cromlu.com'; 
+$asunto = 'Cliente cromlu, proceso LLAMADA'; 
 
 mail($para, $asunto, utf8_decode($mensaje), $header); 
 
 echo "<center><br/><h2><strong>MENSAJE ENVIADO ;) </strong></h2><br/> <h3>Contactaremos contigo por mail</h3> <strong>;)</strong><br/><a href='http://cromlu.com'><h2><strong>Volver a Cromlu</strong></h2></a></center>";
-$url="http://cromlu.com/comprar"; 
+$url="http://cromlu.com/c1d/proceso/llamada/a1"; 
 echo "<SCRIPT>window.location='$url';</SCRIPT>"; 
 ?>	
