@@ -50,6 +50,7 @@ header .menu .avatar img{
 	width: 71px;
 }
 footer{
+	padding: 3em 0;
 	width: 100%;
 	height: auto;
 	background: rgb(0, 26, 58);
@@ -60,11 +61,6 @@ footer p{
 	text-align: center;
 	font-size: 1em;
 	margin: auto;
-	padding: 3em 1em 0.2em 1em;
-}
-footer p:last-child{
-	padding-top: 1em;
-	padding-bottom: 3em;
 }
 #contacto{
 	padding-bottom: 2em;
