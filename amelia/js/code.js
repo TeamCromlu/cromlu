@@ -1,15 +1,15 @@
 $(function(){
 	$(".rslides").responsiveSlides();
-	if(window.matchMedia("(max-width:768px)").matches){
-		alert("estoy en chiquito");
-		// Gest touch para dispositivos moviles
-		var $body= document.querySelector('body');
-		var body= new Hammer($body);
-		body.on('panright',Open);
-		body.on('panleft',Close);
-	}else{
-		alert("eres un ipad o más grande");
-	}
+	// if(window.matchMedia("(max-width:768px)").matches){
+	// 	alert("estoy en chiquito");
+	// 	// Gest touch para dispositivos moviles
+	// 	var $body= document.querySelector('body');
+	// 	var body= new Hammer($body);
+	// 	body.on('panright',Open);
+	// 	body.on('panleft',Close);
+	// }else{
+	// 	alert("eres un ipad o más grande");
+	// }
 });
 var $buttonOpen= document.getElementById('b_open');
 var $buttonClose= document.getElementById('b_close');
