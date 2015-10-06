@@ -38,13 +38,17 @@
   line-height 60px
   margin 0 1.25em
   text-decoration none
+  display block
+  padding .3em
+  &:hover
+    background white
+    color black
 
 .Header
   background-image url('../images/portada.jpg')
   background-position center
   background-repeat no-repeat
   background-size cover
-  margin-top 3.75em
   padding 1em 0
   text-align center
 
@@ -91,6 +95,13 @@
 
 .Work-item
   display inline-block
+  a
+    color #515151
+    text-decoration none
+    font-size 1.1em
+    font-style italic
+    &:hover
+      color #E02424
 
 .Work-imageContainer
   margin 0 2em 1em 0
@@ -102,8 +113,8 @@
 
 figure
   margin 0 40px
-  padding-top 20px
-  padding-bottom 20px
+  padding-top 5em
+  padding-bottom 1.5em
 .Footer
   background-color #0DC5DF
   background-repeat no-repeat
@@ -158,7 +169,7 @@ figure
 .Slider
   background-color black
 .Slider-container
-  max-width 800px
+  max-width 100%
   margin 0 auto 
 @media screen and (max-width 767px)
   .Header
@@ -181,7 +192,7 @@ figure
       color black
   .menu-movil
     z-index 4
-  .Work-imageContainer
+  .-imageContainer
     margin 0 auto
   .Footer-form
     display block
@@ -190,6 +201,7 @@ figure
     width 90%
   .Footer-title
     font-size 2em
+  
 @media screen and (max-width 480px)
   .Profile
     &-link
